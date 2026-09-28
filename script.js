@@ -6,8 +6,8 @@ const bands= ['The Plot in You', 'The Devil Wears Prada',
 bands.sort(
   (a,b)=>
     {
-      let A=a.replace(/^(a|an|the)i, "");
-      let B=b.replace(/^(a|an|the)i, "");
+      let A=a.replace(/^(a |an |the )/i, "");
+      let B=b.replace(/^(a |an |the )/i, "");
       return A.localeCompare(B);
     }
 );

@@ -1,19 +1,21 @@
-/*  your css code here. If applicable */
 body{
-	background-image:"https://images.pexels.com/photos/39451447/pexels-photo-39451447.jpeg";
+	background-color: cyan;
 	padding:30px;
 	font-family:Arial,sans-seif;
+  
 }
 #band
 {
-	height:100px;
+	height:100px
 	width:100px;
-	margin:2px;
+	margin:3px;
 	padding:20px;
 	background-color:white;
+  
 }
 #band li{
 	padding:10px;
 	border-left:2px;
 	border-right:2px;
+  
 }
